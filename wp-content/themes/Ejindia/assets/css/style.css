@@ -1,0 +1,100 @@
+[class*=swiper-button] {
+    filter: brightness(0);
+}
+
+.heroSwiper,
+.heroSwiper .swiper-wrapper,
+.heroSwiper .swiper-slide {
+    height: 100%;
+}
+
+.hero-slide-video {
+    display: block;
+    background: #000;
+    z-index: 0;
+}
+
+.heroSwiper .swiper-slide>.relative>.relative {
+    pointer-events: none;
+}
+
+footer .container {
+    max-width: 1200px;
+}
+
+footer a {
+    overflow-wrap: anywhere;
+}
+
+.standads_wrr img {
+    height: 80px;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.standads_wrr img:hover {
+    filter: grayscale(0);
+}
+
+/* Career submit button */
+#wpforms-submit-1441 {
+    display: none;
+}
+
+form#wpforms-form-1441 label:not(.wpforms-error) {
+    color: #fff;
+    font-weight: 400;
+}
+
+form#wpforms-form-1441 input,
+form#wpforms-form-1441 textarea {
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px 8px;
+}
+
+#wpforms-form-1441 .wpforms-field:not(.wpforms-field-textarea):not(.wpforms-field-file-upload) {
+    width: 50%;
+    padding: 0 5px;
+    margin-bottom: 8px;
+}
+
+#wpforms-form-1441 .wpforms-field-textarea,
+#wpforms-form-1441 .wpforms-field-file-upload {
+    width: 100%;
+    padding: 0 5px;
+    margin-bottom: 8px;
+}
+
+#wpforms-form-1441 .wpforms-field-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wpforms-confirmation-1441 p {
+    color: #fff;
+}
+
+.career-jds {
+    padding-left: 1rem;
+}
+
+.career-jds li {
+    position: relative;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.career-jds li::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -12px;
+    width: 5px;
+    height: 5px;
+    background-color: #F78D1E;
+    border-radius: 50%;
+}
