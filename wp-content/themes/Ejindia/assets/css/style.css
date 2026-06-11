@@ -1,3 +1,121 @@
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiashairline.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasthin.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiaslight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celias.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasmedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasbold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasblack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasthinitalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiaslightitalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasregularitalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasmediumitalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasbolditalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Celias';
+    src: url('../fonts/celias-font-family/celiasblackitalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+html,
+body,
+body *,
+*::before,
+*::after,
+input,
+button,
+textarea,
+select,
+option,
+optgroup {
+    font-family: 'Celias', sans-serif !important;
+}
+
 [class*=swiper-button] {
     filter: brightness(0);
 }
@@ -97,6 +215,12 @@ form#wpforms-form-1441 textarea {
     height: 5px;
     background-color: #F78D1E;
     border-radius: 50%;
+}
+
+#wpforms-1441-field_4::-webkit-outer-spin-button,
+#wpforms-1441-field_4::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .investors-tab-navigation {

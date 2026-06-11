@@ -1,4 +1,4 @@
-<footer class="bg-black text-white">
+<footer class="bg-[#131214] text-white">
     <div class="w-full xl:max-w-[1440px] mx-auto px-4">
 
         <div class="text-center pt-12 pb-8 mb-16">
@@ -25,9 +25,9 @@
                             enquiries.</p>
 
                         <a href="mailto:info@ejindia.com"
-                            class="font-medium text-[#F78D1E] border border-[#F78D1E] rounded-full px-4 py-2 inline-flex gap-2"><img
+                            class="font-medium text-[#F78D1E] border border-[#F78D1E] rounded-full px-4 py-1 inline-flex items-center gap-2"><img
                                 src="http://ea.brightbridge.co/wp-content/uploads/2026/06/Message_og.svg" alt=""
-                                class="w-[25px]"> info@ejindia.com</a>
+                                class="w-[35px]"> info@ejindia.com</a>
                     </div>
                 </div>
 
@@ -53,10 +53,10 @@
                             <a href="mailto:talentacquisition@ejindia.com">talentacquisition@ejindia.com</a>
                         </div>
 
-                        <a href="mailto:info@ejindia.com"
-                            class="font-medium text-[#F78D1E] border border-[#F78D1E] rounded-full px-4 py-2 inline-flex gap-2"><img
-                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/Message_og.svg" alt=""
-                                class="w-[25px]"> info@ejindia.com</a>
+                        <a href="tel:+91 80569 23339"
+                            class="font-medium text-[#F78D1E] border border-[#F78D1E] rounded-full px-4 py-2 inline-flex items-center gap-2"><img
+                                src="http://localhost/Ejindia_Site/wp-content/uploads/2026/06/phone_og.svg" alt=""
+                                class="w-[25px]"> +91 80569 23339</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
 
     </div>
 
-    <div class="relative">
+    <!-- <div class="relative">
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
                     flex flex-wrap justify-between gap-4
                     bg-[#F78D1F] p-6 sm:p-8 md:rounded-xl
@@ -78,10 +78,11 @@
                     class="w-[35px] brightness-0"> info@ejindia.com
             </a>
         </div>
-    </div>
+    </div> -->
+
     <div class="pt-20 pb-12 bg-[#1b1615]">
         <div class="w-full xl:max-w-[1440px] mx-auto px-4">
-            <div class="border-b border-gray-600 pb-5 mb-5">
+            <div class="border-b border-[#5A5A5A] pb-5 mb-5">
                 <p class="mb-8 font-medium text-3xl">Get The latest News About Emerald</p>
 
                 <div class="flex gap-3">

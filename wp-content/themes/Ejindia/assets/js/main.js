@@ -44,4 +44,14 @@ jQuery(document).ready(function ($) {
         $('#wpforms-submit-1441').click();
     });
 
+    // Career page form number input 10 Digit restriction
+    document.addEventListener('DOMContentLoaded', function () {
+        const careerFormNumberInput = document.getElementById('wpforms-1441-field_4');
+        careerFormNumberInput.addEventListener('input', function () {
+            if (this.value.length > 10) {
+                this.value = this.value.slice(0, 10);
+            }
+        })
+    })
+
 });

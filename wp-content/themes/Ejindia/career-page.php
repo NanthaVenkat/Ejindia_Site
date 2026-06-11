@@ -35,13 +35,13 @@ foreach ($jobs as $job) {
     <!-- <div class="absolute inset-0 bg-black/60"></div> -->
 
     <div class="relative z-10 container mx-auto px-6 flex items-center">
-        <div class="max-w-3xl">
+        <div class="max-w-2xl">
 
             <!-- <p class="text-[#F78D1F] uppercase tracking-widest mb-4">
         Careers
       </p> -->
 
-            <h1 class="text-white text-3xl lg:text-5xl font-bold leading-tight">
+            <h1 class="text-white text-3xl lg:text-5xl font-medium leading-tight">
                 Seize your opportunity become part of the vibrant Emerald family
             </h1>
 
@@ -96,16 +96,18 @@ foreach ($jobs as $job) {
 
             <!-- SIDEBAR -->
             <div>
-                <div class="w-full lg:rounded-xl font-medium overflow-auto lg:overflow-hidden lg:border border-zinc-800 flex gap-4 lg:gap-0 lg:sticky top-24 lg:block">
+                <div
+                    class="w-full lg:rounded-xl overflow-auto lg:overflow-hidden lg:border border-[#444444] flex gap-4 lg:gap-0 lg:sticky top-24 lg:block">
 
-                    <button data-filter="all-jobs" class="career-filter-btn whitespace-nowrap lg:whitespace-wrap rounded-full lg:rounded-none w-full bg-[#F78D1F] text-white px-5 py-2 lg:py-4">
+                    <button data-filter="all-jobs"
+                        class="career-filter-btn cursor-pointer whitespace-nowrap lg:whitespace-wrap rounded-full lg:rounded-none w-full bg-[#F78D1F] px-5 py-2 lg:py-4 hover:opacity-80 duration-300">
                         All Jobs
                     </button>
 
                     <?php foreach ($departments as $department): ?>
 
                         <button data-filter="<?php echo sanitize_title($department); ?>"
-                            class="career-filter-btn whitespace-nowrap lg:whitespace-wrap rounded-full lg:rounded-none w-full bg-[#6868686B] text-white px-5 py-2 lg:py-4 border-t border-zinc-800">
+                            class="career-filter-btn cursor-pointer whitespace-nowrap lg:whitespace-wrap rounded-full lg:rounded-none w-full bg-[#6868686B] text-white px-5 py-2 lg:py-4 hover:opacity-80 duration-300 border-t border-[#444444]">
 
                             <?php echo esc_html($department); ?>
 
@@ -125,7 +127,7 @@ foreach ($jobs as $job) {
 
                         $terms = get_the_terms($job->ID, 'job_category');
                         // $slug = !empty($terms) ? $terms[0]->slug : 'uncategorized';
-                    
+
                         $department = get_field('department', $job->ID);
                         $department_slug = sanitize_title($department);
 
@@ -137,7 +139,7 @@ foreach ($jobs as $job) {
                         ?>
 
                         <div data-job="<?php echo esc_attr($department_slug); ?>"
-                            class="bg-[#6868686B] backdrop-filter backdrop-blur-sm bg-opacity-10 rounded-2xl border border-zinc-800 p-6">
+                            class="duration-300 bg-[#b3b3b32f] hover:bg-[#b3b3b338] backdrop-filter backdrop-blur-sm bg-opacity-10 border border-[#444444] hover:border-white rounded-2xl border p-6">
 
                             <h3 class="text-white text-xl font-semibold pb-3 mb-3 border-b border-[#444444]">
                                 <?php echo esc_html(get_the_title($job->ID)); ?>
@@ -186,15 +188,15 @@ foreach ($jobs as $job) {
 
                             </div>
 
-                            <div class="flex flex-wrap gap-3 mt-8">
+                            <div class="flex flex-wrap gap-3 mt-8 font-medium">
 
                                 <button command="show-modal" commandfor="job_view_<?php echo $job->ID; ?>"
-                                    class="border border-white text-white px-6 py-2 rounded-full">
+                                    class="border border-white text-white px-6 py-2 rounded-full cursor-pointer transition-all hover:bg-white hover:text-black">
                                     View More
                                 </button>
 
                                 <button command="show-modal" commandfor="job_interest_<?php echo $job->ID; ?>"
-                                    class="bg-[#F78D1F] text-black px-6 py-2 rounded-full font-semibold">
+                                    class="bg-[#F78D1F] text-black px-6 py-2 rounded-full cursor-pointer">
                                     I'm Interested
                                 </button>
 
