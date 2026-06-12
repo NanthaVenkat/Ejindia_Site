@@ -160,15 +160,13 @@ footer a {
 }
 
 form#wpforms-form-1441 label:not(.wpforms-error) {
-    color: #fff;
     font-weight: 400;
 }
 
 form#wpforms-form-1441 input,
 form#wpforms-form-1441 textarea {
     outline: none;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #BBBBBB;
     border-radius: 5px;
     margin-top: 5px;
     padding: 5px 8px;
@@ -190,6 +188,7 @@ form#wpforms-form-1441 textarea {
 #wpforms-form-1441 .wpforms-field-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px 0;
 }
 
 #wpforms-confirmation-1441 p {
@@ -202,7 +201,6 @@ form#wpforms-form-1441 textarea {
 
 .career-jds li {
     position: relative;
-    color: #fff;
     margin-bottom: 8px;
 }
 
