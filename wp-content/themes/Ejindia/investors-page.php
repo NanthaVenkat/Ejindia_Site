@@ -82,13 +82,43 @@ get_header();
                     <?php endif; ?>
                 </div>
 
+                <div id="fixed-deposit" class="investors-tab-panel text-white text-center" style="display: none;">
+                    <h2 class="text-[#636367] font-semibold text-2xl mb-4">Fixed Deposit Scheme</h2>
+                    <?php if (have_rows('fixed_deposit_docs')): ?>
+                        <?php while (have_rows('fixed_deposit_docs')):
+                            the_row();
+                            $doc_name = get_sub_field('doc_name');
+                            $file_url = get_sub_field('file_upload');
+                            $action_type = get_sub_field('action_type');
+                            ?>
+                            <div class="download-row flex justify-between border-b border-[#5A5A5A] py-4 px-2 items-center">
+                                <span class="text-left">
+                                    <?php echo esc_html($doc_name); ?>
+                                </span>
+
+                                <?php if ($action_type === 'view'): ?>
+                                    <button type="button" class="text-[#F78D1E] font-medium open-pdf-modal-btn"
+                                        data-filepath="<?php echo esc_url($file_url); ?>">VIEW</button>
+                                <?php else: ?>
+                                    <a href="<?php echo esc_url($file_url); ?>" download class="text-[#F78D1E] flex items-center">
+                                        <img src="http://localhost/Ejindia_Site/wp-content/uploads/2026/06/download-orange.svg"
+                                            alt="Download" class="mr-2 w-4">DOWNLOAD
+                                    </a>
+                                <?php endif; ?>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php else: ?>
+                        <p class="text-gray-400 py-4">No fixed deposit documents available at this time.</p>
+                    <?php endif; ?>
+                </div>
+
             </div>
         </div>
 
     </div>
 </section>
 
-<!-- <dialog id="pdf-dialog"
+<dialog id="pdf-dialog"
     class="fixed inset-0 size-auto max-h-none max-w-none overflow-y-auto bg-transparent backdrop:bg-transparent">
     <div class="fixed inset-0 bg-gray-900/50 dialog-overlay-closer"></div>
 
@@ -108,37 +138,7 @@ get_header();
             </div>
         </div>
     </div>
-</dialog> -->
-
-<div id="fixed-deposit" class="investors-tab-panel text-white text-center" style="display: none;">
-    <h2 class="text-[#636367] font-semibold text-2xl mb-4">Fixed Deposit Scheme</h2>
-    <?php if (have_rows('fixed_deposit_docs')): ?>
-        <?php while (have_rows('fixed_deposit_docs')):
-            the_row();
-            $doc_name = get_sub_field('doc_name');
-            $file_url = get_sub_field('file_upload');
-            $action_type = get_sub_field('action_type');
-            ?>
-            <div class="download-row flex justify-between border-b border-[#5A5A5A] py-4 px-2 items-center">
-                <span class="text-left">
-                    <?php echo esc_html($doc_name); ?>
-                </span>
-
-                <?php if ($action_type === 'view'): ?>
-                    <button type="button" class="text-[#F78D1E] font-medium open-pdf-modal-btn"
-                        data-filepath="<?php echo esc_url($file_url); ?>">VIEW</button>
-                <?php else: ?>
-                    <a href="<?php echo esc_url($file_url); ?>" download class="text-[#F78D1E] flex items-center">
-                        <img src="http://localhost/Ejindia_Site/wp-content/uploads/2026/06/download-orange.svg" alt="Download"
-                            class="mr-2 w-4">DOWNLOAD
-                    </a>
-                <?php endif; ?>
-            </div>
-        <?php endwhile; ?>
-    <?php else: ?>
-        <p class="text-gray-400 py-4">No fixed deposit documents available at this time.</p>
-    <?php endif; ?>
-</div>
+</dialog>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
