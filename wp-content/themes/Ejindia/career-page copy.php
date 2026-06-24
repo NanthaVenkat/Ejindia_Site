@@ -547,7 +547,6 @@ get_header();
         </div>
     </dialog>
 
-
 <?php get_footer(); ?><?php
 /*
 Template Name: Careers

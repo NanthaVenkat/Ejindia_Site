@@ -18,13 +18,13 @@ get_header();
 
         <div class="w-full">
             <div
-                class="investors-tab-navigation w-max mx-auto bg-[#99a1af63] backdrop-filter backdrop-blur-sm bg-opacity-10 font-medium space-x-2 mb-6">
+                class="investors-tab-navigation rounded-[50px] w-max mx-auto bg-[#99a1af63] backdrop-filter backdrop-blur-sm bg-opacity-10 font-medium space-x-2 mb-6">
                 <button class="investors-tab-btn active" data-target="policies">Policies</button>
                 <button class="investors-tab-btn" data-target="annual-return">Annual Return</button>
                 <button class="investors-tab-btn" data-target="fixed-deposit">Fixed Deposit Scheme</button>
             </div>
 
-            <div class="investors-tab-content-container mx-auto">
+            <div class="investors-tab-content-container mx-auto w-full">
 
                 <div id="policies" class="investors-tab-panel text-white text-center" style="display: block;">
                     <h2 class="text-[#636367] font-semibold text-2xl mb-4">Policies</h2>
