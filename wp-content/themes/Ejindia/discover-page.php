@@ -48,51 +48,60 @@ get_header();
         <div class="grid grid-cols-2 gap-8">
             <a href="http://localhost/Ejindia_Site/key-people/" class="relative group col-span-[1.5] overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/key-people_udjyai_ubzw0p.jpg" alt=""
-                    class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
-                    <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Key People</p>
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Key People</p>
             </a>
-            <a href="" class="relative group col-span-[1.5] overflow-hidden">
+            <a href="http://localhost/Ejindia_Site/discover/mission-vission/" class="relative group col-span-[1.5] overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/vision-mission_eqtdkx_ynkwkd.jpg" alt=""
-                    class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
-                    <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Vission and Mission</p>
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Vission and Mission
+                </p>
             </a>
         </div>
 
         <div class="grid grid-cols-3 gap-8">
-            <div class="grid grid-cols-2 col-span-2 gap-8">
-                <a href="" class="relative group overflow-hidden">
-                    <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/journey_ou1qan_fivxik.jpg" alt=""
-                        class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
+            <a href="http://localhost/Ejindia_Site/discover/journey/" class="relative group overflow-hidden">
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/journey_ou1qan_fivxik.jpg" alt=""
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
-                        <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">journey</p>
-                </a>
-                <a href="" class="relative group overflow-hidden">
-                    <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/awards_ls4kkt_ypf4wt.jpg" alt=""
-                        class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">journey</p>
+            </a>
+            <a href="http://localhost/Ejindia_Site/discover/award-accolades" class="relative group overflow-hidden">
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/awards_ls4kkt_ypf4wt.jpg" alt=""
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
-                        <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Awards and accolade</p>
-                </a>
-                <a href="" class="relative group overflow-hidden">
-                    <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/hand-with-pen-ejindia.jpg" alt=""
-                        class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Awards and
+                    accolade</p>
+            </a>
+            <a href="http://localhost/Ejindia_Site/discover/hritage/" class="relative group overflow-hidden">
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/content.png" alt=""
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
-                        <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Heritage</p>
-                </a>
-                <a href="" class="relative group overflow-hidden">
-                    <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/heritage_sgghyp_q5mvih-1.jpg" alt=""
-                        class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Heritage</p>
+            </a>
+            <a href=" http://localhost/Ejindia_Site/discover/policies/" class="relative group overflow-hidden">
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/heritage_sgghyp_q5mvih-1.jpg" alt=""
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
-                        <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">policies</p>
-                </a>
-            </div>
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">policies</p>
+            </a>
 
             <a href="" class="relative group overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/sustain_rcnbkr_xns0hy.jpg" alt=""
-                    class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
-                    <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Custainability and CSR</p>
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Sustainability
+                    and
+                    CSR</p>
+            </a>
+
+            <a href="http://localhost/Ejindia_Site/discover/group-companies" class="relative group overflow-hidden">
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/key-people_udjyai_ubzw0p.jpg" alt=""
+                    class="w-full h-[230px] object-cover object-center transition-transform duration-300 group-hover:scale-110">
+
+                <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">group Companies</p>
             </a>
         </div>
     </div>

@@ -251,3 +251,7 @@ form#wpforms-form-1441 textarea {
     background-color: #F78D1E;
     color: #000;
 }
+
+#site-header.scrolled {
+    background-color: #0606069e;
+}

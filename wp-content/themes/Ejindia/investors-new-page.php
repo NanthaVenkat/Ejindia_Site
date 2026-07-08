@@ -10,6 +10,8 @@ get_header();
     /* custom overrides & tab styles */
     .companies-tab-btn {
         transition: all 0.2s ease;
+        color: #fff;
+        text-transform: capitalize;
     }
 
     .companies-tab-btn.active {
@@ -49,21 +51,21 @@ get_header();
 </style>
 
 <!-- ========== MAIN WRAPPER (dashboard style) ========== -->
-<div class="min-h-screen bg-black py-6 md:py-10 px-4 md:px-8">
+<div class="bg-black py-6 md:py-18 px-4 md:px-8">
 
     <!-- header -->
-    <div class="max-w-7xl mx-auto mb-8 text-center md:text-left">
-        <h1 class="text-[#F78D1E] text-3xl md:text-4xl font-medium tracking-tight">
+    <div class="!max-w-7xl !mx-auto mb-8 !text-center md:!text-left">
+        <h1 class="!text-[#F78D1E] !text-3xl md:!text-4xl !font-medium !tracking-tight">
             GROUP COMPANIES
         </h1>
     </div>
 
     <!-- ===== DASHBOARD LAYOUT: sidebar + content ===== -->
-    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-6 relative">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:!grid-cols-[280px_1fr] gap-6 relative">
 
         <!-- ===== SIDE MENU (desktop static, mobile toggle) ===== -->
         <div id="sideMenu" class="
-      lg:relative lg:block 
+      lg:!relative lg:block 
       fixed top-20 lg:top-0 left-0 z-40 h-full w-[280px] 
       bg-[#111] border-r border-gray-800 
       transform -translate-x-full lg:translate-x-0 
@@ -71,7 +73,7 @@ get_header();
       overflow-y-auto pt-6 pb-10 px-4
     ">
             <!-- close button (mobile) -->
-            <button id="closeMenuBtn" class="lg:hidden absolute top-0 right-0">
+            <button id="closeMenuBtn" class="lg:!hidden absolute top-0 right-0">
                 <img src="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/close-x-svg.svg" alt="close"
                     class="mr-2 w-6">
             </button>
@@ -79,28 +81,38 @@ get_header();
             <div class="space-y-1 mt-2">
                 <button
                     class="companies-tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-medium flex items-center gap-3 text-white bg-[#1f1f1f] hover:bg-[#2a2a2a] active"
-                    data-target="ijc">
-                    Indiania Jewellery
+                    data-target="leadership">
+                    Leadership
                 </button>
                 <button
                     class="companies-tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-medium flex items-center gap-3 text-white bg-[#1f1f1f] hover:bg-[#2a2a2a]"
-                    data-target="ejdmcc">
-                    Emerald Jewellers DMCC
+                    data-target="anual_returns">
+                    Anual Returns
                 </button>
                 <button
                     class="companies-tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-medium flex items-center gap-3 text-white bg-[#1f1f1f] hover:bg-[#2a2a2a]"
-                    data-target="epc">
-                    Emerald Precious Chains
+                    data-target="plicies">
+                    Plicies
                 </button>
                 <button
                     class="companies-tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-medium flex items-center gap-3 text-white bg-[#1f1f1f] hover:bg-[#2a2a2a]"
-                    data-target="ggr">
-                    Green Gem Renewables
+                    data-target="others">
+                    Others
                 </button>
                 <button
                     class="companies-tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-medium flex items-center gap-3 text-white bg-[#1f1f1f] hover:bg-[#2a2a2a]"
-                    data-target="joj">
-                    Jewel One Jewellery
+                    data-target="disclosures">
+                    Disclosures
+                </button>
+                <button
+                    class="companies-tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-medium flex items-center gap-3 text-white bg-[#1f1f1f] hover:bg-[#2a2a2a]"
+                    data-target="fixed_deposit_scheme">
+                    Fixed Deposit Scheme
+                </button>
+                <button
+                    class="companies-tab-btn w-full text-left px-4 py-3 rounded-lg text-sm font-medium flex items-center gap-3 text-white bg-[#1f1f1f] hover:bg-[#2a2a2a]"
+                    data-target="contact_information">
+                    Contact Information
                 </button>
             </div>
 
@@ -109,7 +121,7 @@ get_header();
         <!-- ===== MOBILE MENU TOGGLE (fixed) ===== -->
         <div class="lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
             <button id="openMenuBtn"
-                class="bg-[#F78D1E] text-black px-6 py-3 rounded-full shadow-lg font-semibold flex items-center gap-3 text-sm">
+                class="!bg-[#F78D1E] !text-black px-6 py-3 rounded-full shadow-lg font-semibold flex items-center gap-3 text-sm">
                 <img src="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/menu-svg.svg" alt="Download"
                     class="mr-2 w-4"> Companies
             </button>
@@ -121,133 +133,231 @@ get_header();
             <!-- Tab panels -->
             <div class="companies-tab-content-container tab-panel-scroll">
 
-                <!-- IJC -->
-                <div id="ijc" class="companies-tab-panel space-y-0" style="display: block;">
+                <!-- leadership -->
+                <div id="leadership" class="companies-tab-panel space-y-0" style="display: block;">
                     <div class="flex items-center gap-3 border-b border-gray-700 pb-3 mb-4">
-                        <span class="font-medium text-white">Indiania Jewellery Company Pvt Ltd</span>
+                        <span class="font-medium text-white">Leadership</span>
                     </div>
                     <div
                         class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                        <span class="text-sm md:text-base"> Indiania
+                        <span class="text-sm md:text-base"> Board Diversity Policy
                             FY 25</span>
-                        <a href="#" class="text-[#F78D1E] flex items-center gap-2 text-sm font-medium hover:underline">
+                        <a href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/11.-Board-Diversity-Policy.docx"
+                            class="!text-[#F78D1E]  flex items-center gap-2 text-sm font-medium hover:underline">
+                            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4"> DOWNLOAD
+                        </a>
+                    </div>
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm md:text-base"> BOARD OF DIRECTORS
+                            FY 25</span>
+                        <a href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/3.-BOARD-OF-DIRECTORS.docx"
+                            class="!text-[#F78D1E]  flex items-center gap-2 text-sm font-medium hover:underline">
+                            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4"> DOWNLOAD
+                        </a>
+                    </div>
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm md:text-base"> Code of Conduct
+                            FY 25</span>
+                        <a href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/4.-Code-of-Conduct.docx"
+                            class="!text-[#F78D1E]  flex items-center gap-2 text-sm font-medium hover:underline">
+                            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4"> DOWNLOAD
+                        </a>
+                    </div>
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm md:text-base"> COMMITTEES
+                            FY 25</span>
+                        <a href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/5.-COMMITTEES.docx"
+                            class="!text-[#F78D1E]  flex items-center gap-2 text-sm font-medium hover:underline">
+                            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4"> DOWNLOAD
+                        </a>
+                    </div>
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm md:text-base"> Familiarization Program for Independent Directors
+                            FY 25</span>
+                        <a href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/7.-Familiarization-Program-for-Independent-Directors.docx"
+                            class="!text-[#F78D1E]  flex items-center gap-2 text-sm font-medium hover:underline">
+                            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4"> DOWNLOAD
+                        </a>
+                    </div>
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm md:text-base"> Terms & Conditions of Appointment of Independent Directors
+                            FY 25</span>
+                        <a href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/9.-Terms-Conditions-of-Appointment-of-Independent-Directors.docx"
+                            class="!text-[#F78D1E]  flex items-center gap-2 text-sm font-medium hover:underline">
                             <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
                                 alt="Download" class="mr-2 w-4"> DOWNLOAD
                         </a>
                     </div>
                 </div>
 
-                <!-- EJDMCC -->
-                <div id="ejdmcc" class="companies-tab-panel space-y-0" style="display: none;">
+                <!-- anual_returns -->
+                <div id="anual_returns" class="companies-tab-panel space-y-0" style="display: none;">
                     <div class="flex items-center gap-3 border-b border-gray-700 pb-3 mb-4">
-                        <span class="font-medium text-white">Emerald Jewellers DMCC</span>
+                        <span class="font-medium text-white">Anual Returns</span>
                     </div>
                     <!-- list -->
                     <div class="space-y-1">
                         <div
                             class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">FY 2025</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
-                                    src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
-                                    alt="Download" class="mr-2 w-4">DOWNLOAD</a>
-                        </div>
-                        <div
-                            class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">CFS FY 25</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
-                                    src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
-                                    alt="Download" class="mr-2 w-4">DOWNLOAD</a>
-                        </div>
-                        <div
-                            class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">FY 2024</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
-                                    src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
-                                    alt="Download" class="mr-2 w-4">DOWNLOAD</a>
-                        </div>
-                        <div
-                            class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">CFS FY 24</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
-                                    src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
-                                    alt="Download" class="mr-2 w-4">DOWNLOAD</a>
-                        </div>
-                        <div
-                            class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">CFS FY 23</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
-                                    src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
-                                    alt="Download" class="mr-2 w-4">DOWNLOAD</a>
-                        </div>
-                        <div
-                            class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">FY 2023</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                            <span class="text-sm">FY 24-25</span><a
+                                href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/AC1654137_MGT-7_FY_24-25_Filed.pdf"
+                                class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
                                     src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
                                     alt="Download" class="mr-2 w-4">DOWNLOAD</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- EPC -->
-                <div id="epc" class="companies-tab-panel" style="display: none;">
+                <!-- plicies -->
+                <div id="plicies" class="companies-tab-panel" style="display: none;">
                     <div class="flex items-center gap-3 border-b border-gray-700 pb-3 mb-4">
-                        <span class="font-medium text-white">Emerald Precious Chains Ltd</span>
+                        <span class="font-medium text-white">Plicies</span>
                     </div>
                     <div
                         class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                        <span class="text-sm">EPC FY 25</span><a href="#"
-                            class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                        <span class="text-sm">Archival Policy for website disclosure</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/10.-Archival-Policy-for-website-disclosure.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">Email address for grievance redressal and other relevant details</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/10.Email-address-for-grievance-redressal-and-other-relevant-details.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">Cyber Security Policy</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/17.-Cyber-Security-Policy.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">Nomination and Remuneration Policy</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/2.-Nomination-and-Remuneration-Policy.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">Policy on Related Party Transactions</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/6.-Policy-on-Related-Party-Transactions.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">Policy on disclosure of material events information</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/6.-Policy-on-disclosure-of-material-events-information.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">Policy for Preservation & Archival of documents</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/7.-Policy-for-Preservation-Archival-of-documents.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">Policy for Determination of Material Subsidiaries</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/8.-Policy-for-Determination-of-Material-Subsidiaries.docx"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
+                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
+                    </div>
+
+                    <div
+                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
+                        <span class="text-sm">EJIL _Whistle Blower Policy_Updated</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/9.EJIL-_Whistle-Blower-Policy_Updated.pdf"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
                                 src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
                                 alt="Download" class="mr-2 w-4">DOWNLOAD</a>
                     </div>
                 </div>
 
-                <!-- GGR -->
-                <div id="ggr" class="companies-tab-panel" style="display: none;">
+                <!-- others -->
+                <div id="others" class="companies-tab-panel" style="display: none;">
                     <div class="flex items-center gap-3 border-b border-gray-700 pb-3 mb-4">
-                        <span class="font-medium text-white">Green Gem Renewables Pvt Ltd</span>
+                        <span class="font-medium text-white">Others</span>
                     </div>
                     <div
                         class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                        <span class="text-sm">GGRPL CFS FY
-                            25</span><a href="#" class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
-                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
-                                alt="Download" class="mr-2 w-4">DOWNLOAD</a>
-                    </div>
-                    <div
-                        class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                        <span class="text-sm">GGRPL FY 25</span><a href="#"
-                            class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                        <span class="text-sm">EJIL-MoA amended 2026 FINAL</span><a
+                            href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/EJIL-MoA-amended-2026-FINAL.pdf"
+                            class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
                                 src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
                                 alt="Download" class="mr-2 w-4">DOWNLOAD</a>
                     </div>
                 </div>
 
-                <!-- JOJ -->
-                <div id="joj" class="companies-tab-panel" style="display: none;">
+                <!-- disclosures -->
+                <div id="disclosures" class="companies-tab-panel" style="display: none;">
                     <div class="flex items-center gap-3 border-b border-gray-700 pb-3 mb-4">
-                        <span class="font-medium text-white">Jewel One Jewellery LLC</span>
+                        <span class="font-medium text-white">Disclosures</span>
                     </div>
                     <div class="space-y-1">
                         <div
                             class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">FY 2025</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                            <span class="text-sm">Code of Practices and Procedures for Fair Disclosure of UPSI</span><a
+                                href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/3.-Code-of-Practices-and-Procedures-for-Fair-Disclosure-of-UPSI.docx"
+                                class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
                                     src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
                                     alt="Download" class="mr-2 w-4">DOWNLOAD</a>
                         </div>
+                    </div>
+                </div>
+
+                <!-- fixed_deposit_scheme -->
+                <div id="fixed_deposit_scheme" class="companies-tab-panel" style="display: none;">
+                    <div class="flex items-center gap-3 border-b border-gray-700 pb-3 mb-4">
+                        <span class="font-medium text-white">Fixed Deposit Scheme</span>
+                    </div>
+                    <div class="space-y-1">
+
+                    </div>
+                </div>
+
+                <!-- contact_information -->
+                <div id="contact_information" class="companies-tab-panel" style="display: none;">
+                    <div class="flex items-center gap-3 border-b border-gray-700 pb-3 mb-4">
+                        <span class="font-medium text-white">Contact Information</span>
+                    </div>
+                    <div class="space-y-1">
                         <div
                             class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">FY 2024</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
-                                    src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
-                                    alt="Download" class="mr-2 w-4">DOWNLOAD</a>
-                        </div>
-                        <div
-                            class="download-row flex justify-between items-center border-b border-[#2a2a2a] py-4 px-2 rounded-lg">
-                            <span class="text-sm">FY 2023</span><a href="#"
-                                class="text-[#F78D1E] flex items-center gap-2 text-sm"><img
+                            <span class="text-sm">Contact information of the designated officials</span><a
+                                href="https://stagingejindia.brightbridge.co/wp-content/uploads/2026/06/11.Contact-information-of-the-designated-officials.docx"
+                                class="!text-[#F78D1E] flex items-center gap-2 text-sm"><img
                                     src="http://ea.brightbridge.co/wp-content/uploads/2026/06/download-orange.svg"
                                     alt="Download" class="mr-2 w-4">DOWNLOAD</a>
                         </div>
@@ -260,7 +370,7 @@ get_header();
 </div>
 
 <!-- ===== PDF DIALOG (minimal) ===== -->
-<dialog id="pdf-dialog"
+<!-- <dialog id="pdf-dialog"
     class="rounded-xl backdrop:bg-black/60 w-11/12 max-w-4xl p-0 bg-[#1a1a1a] border border-gray-700">
     <div class="flex justify-between items-center p-4 border-b border-gray-700">
         <h3 class="text-white font-medium"><i class="fas fa-file-pdf text-[#F78D1E] mr-2"></i>Document Viewer</h3>
@@ -273,9 +383,7 @@ get_header();
         <iframe id="pdf-frame" src="about:blank" width="100%" height="100%" frameborder="0"
             class="w-full h-full"></iframe>
     </div>
-</dialog>
-
-
+</dialog> -->
 
 <!-- ===== JAVASCRIPT ===== -->
 <script>
@@ -386,21 +494,21 @@ get_header();
         // ---------- PDF DIALOG ----------
         // using data attributes for demo: we attach to download links? but we use open-pdf-modal-btn class if needed.
         // since the original code uses .open-pdf-modal-btn we keep it, but we simulate with click on download links (prevent default)
-        document.querySelectorAll('.download-row a').forEach(link => {
-            link.addEventListener('click', function (e) {
-                e.preventDefault();
-                // get the pdf path from href (fake)
-                const href = this.getAttribute('href');
-                if (href && href !== '#') {
-                    iframe.src = href;
-                    dialog.showModal();
-                } else {
-                    // demo: load a dummy pdf (sample)
-                    iframe.src = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
-                    dialog.showModal();
-                }
-            });
-        });
+        // document.querySelectorAll('.download-row a').forEach(link => {
+        //     link.addEventListener('click', function (e) {
+        //         e.preventDefault();
+        //         // get the pdf path from href (fake)
+        //         const href = this.getAttribute('href');
+        //         if (href && href !== '#') {
+        //             iframe.src = href;
+        //             dialog.showModal();
+        //         } else {
+        //             // demo: load a dummy pdf (sample)
+        //             iframe.src = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
+        //             dialog.showModal();
+        //         }
+        //     });
+        // });
 
         // close dialog
         if (closeDialogBtn) {

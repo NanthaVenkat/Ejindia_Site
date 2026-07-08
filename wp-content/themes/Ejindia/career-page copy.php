@@ -510,6 +510,7 @@ get_header();
 
     <dialog id="industrial_engineering_int" aria-labelledby="industrial_engineering_int-title"
         class="fixed inset-0 size-auto max-h-none max-w-none overflow-y-auto bg-transparent backdrop:bg-transparent">
+        
         <el-dialog-backdrop
             class="fixed inset-0 bg-gray-900/50 transition-opacity data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in"></el-dialog-backdrop>
 
@@ -1095,7 +1096,6 @@ get_header();
             </el-dialog-panel>
         </div>
     </dialog>
-
 
 <?php get_footer(); ?><?php
 /*
