@@ -13,7 +13,7 @@
     <?php wp_body_open(); ?>
 
     <header id="site-header"
-        class="fixed w-full top-0 z-50 transition-all duration-300 bg-[#99a1af1f] backdrop-filter backdrop-blur-sm bg-opacity-10 py-4 px-4">
+        class="fixed w-full top-0 z-50 transition-all duration-300 bg-[#0606069e] backdrop-filter backdrop-blur-sm bg-opacity-10 py-4 px-4">
         <nav class="flex justify-between">
             <ul class="flex gap-4 text-white">
                 <li><a href="http://localhost/Ejindia_Site/discover/">Discover</a></li>
