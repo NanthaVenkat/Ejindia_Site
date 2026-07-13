@@ -226,7 +226,7 @@ form#wpforms-form-1441 textarea {
 
 .investors-tab-navigation .investors-tab-btn {
     color: #fff;
-    background-color: #262626;
+    background-color: #191919;
     border-radius: 50px;
     padding: 8px 14px;
 }
@@ -238,13 +238,13 @@ form#wpforms-form-1441 textarea {
 
 .companies-tab-navigation .companies-tab-btn {
     color: #fff;
-    background-color: #262626;
+    background-color: #191919;
     /* border-radius: 15px; */
     padding: 8px 14px;
 }
 
 /* .companies-tab-navigation .companies-tab-btn:not(:last-child) {
-    border-bottom: 1px solid #ffffff85;
+    border-bottom: 1px solid #636363;
 } */
 
 .companies-tab-navigation .companies-tab-btn.active {

@@ -16,13 +16,13 @@ get_header();
         <h4 class="text-center text-[#555555] text-2xl">WHY CHOOSE EMERALD?</h4>
 
         <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <a href="http://localhost/Ejindia_Site/key-people/" class="relative group col-span-[1.5] overflow-hidden">
+            <a href="http://localhost/Ejindia_Site/why-emerald/craftmanship/" class="relative group col-span-[1.5] overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/why-emerald-5.jpg" alt=""
                     class="w-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
 
                 <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Craftsmanship</p>
             </a>
-            <a href="http://localhost/Ejindia_Site/discover/mission-vission/"
+            <a href="http://localhost/Ejindia_Site/why-emerald/design/"
                 class="relative group col-span-[1.5] overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/why-emerald-2.jpg" alt=""
                     class="w-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
@@ -30,7 +30,7 @@ get_header();
                 <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Design
                 </p>
             </a>
-            <a href="http://localhost/Ejindia_Site/discover/mission-vission/"
+            <a href="http://localhost/Ejindia_Site/why-emerald/technology/"
                 class="relative group col-span-[1.5] overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/why-emerald-3.jpg" alt=""
                     class="w-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
@@ -38,7 +38,7 @@ get_header();
                 <p class="absolute pointer-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Technology
                 </p>
             </a>
-            <a href="http://localhost/Ejindia_Site/discover/mission-vission/"
+            <a href="http://localhost/Ejindia_Site/why-emerald/customization/"
                 class="relative group col-span-[1.5] overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/why-emerald-4.jpg" alt=""
                     class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">
@@ -47,7 +47,7 @@ get_header();
                 </p>
             </a>
             <div class="space-y-4">
-                <a href="http://localhost/Ejindia_Site/discover/mission-vission/"
+                <a href="http://localhost/Ejindia_Site/why-emerald/quality/"
                     class="inline-block relative group col-span-[1.5] overflow-hidden">
                     <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/why-emerald-6.jpg"
                         alt=""
@@ -57,7 +57,7 @@ get_header();
                     </p>
                 </a>
 
-                <a href="http://localhost/Ejindia_Site/discover/mission-vission/"
+                <a href="http://localhost/Ejindia_Site/why-emerald/infrastructure/"
                     class="inline-block relative group col-span-[1.5] overflow-hidden">
                     <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/why-emerald-1.jpg"
                         alt=""
@@ -67,7 +67,7 @@ get_header();
                     </p>
                 </a>
             </div>
-            <a href="http://localhost/Ejindia_Site/discover/mission-vission/"
+            <a href="http://localhost/Ejindia_Site/why-emerald/certification/"
                 class="relative group col-span-[1.5] overflow-hidden">
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/why-emerald-7.jpg" alt=""
                     class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110">

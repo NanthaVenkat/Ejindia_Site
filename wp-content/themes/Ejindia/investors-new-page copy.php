@@ -9,7 +9,7 @@ get_header();
 <style>
     .companies-tab-navigation .companies-tab-btn {
         color: #fff;
-        background-color: #262626;
+        background-color: #191919;
         /* border-radius: 15px; */
         padding: 8px 14px;
         margin: 0px !important;
@@ -17,7 +17,7 @@ get_header();
 
     .companies-tab-navigation .companies-tab-btn-wrr {
         color: #fff;
-        background-color: #262626;
+        background-color: #191919;
         /* border-radius: 15px; */
         padding: 8px 14px;
         margin: 0px !important;
@@ -25,11 +25,11 @@ get_header();
 
     @media screen and (min-width: 1020px) {
         .companies-tab-navigation .companies-tab-btn:not(:last-child) {
-            border-bottom: 1px solid #ffffff85;
+            border-bottom: 1px solid #636363;
         }
 
         .companies-tab-navigation .companies-tab-btn-wrr:not(:last-child) {
-            border-bottom: 1px solid #ffffff85;
+            border-bottom: 1px solid #636363;
         }
     }
 
@@ -62,7 +62,7 @@ get_header();
 
         <div class="grid lg:grid-cols-[40%_60%]">
             <div
-                class="companies-tab-navigation flex lg:flex-col overflow-auto rounded-lg lg:overflow-hidden lg:max-w-[340px] w-full lg:w-max h-max mx-auto mb-6 font-medium">
+                class="companies-tab-navigation border border-[#636363] flex lg:flex-col overflow-auto rounded-lg lg:overflow-hidden lg:max-w-[340px] w-full lg:w-max h-max mx-auto mb-6 font-light">
                 <button class="companies-tab-btn active" data-target="ijc">Indiania Jewellery Company Pvt
                     Ltd</button>
                 <button class="companies-tab-btn" data-target="ejdmcc">Emerald Jewellers DMCC</button>

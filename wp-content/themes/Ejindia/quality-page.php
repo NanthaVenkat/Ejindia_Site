@@ -11,7 +11,7 @@ get_header();
         <p class="text-3xl text-center mb-16 text-[#777]">“ Having been our guiding light, Quality has been that single most thing that has taken us to the greatest height. Ensuring excellence in finish and high business ethics in all our work has truly been a key differentiator and has helped us soar high to be one of the world’s largest jewellery manufacturer ”</p>
 
         <div class="max-w-[1140px] mx-auto grid md:grid-cols-2 gap-6">
-            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/ezgif.com-webp-to-jpg-8_bnv6fe.jpg" alt=""
+            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/Quality-interior-123_cbi8pd.jpg" alt=""
                 class="w-full h-full">
             <div class="mx-auto space-y-4">
 
@@ -22,7 +22,7 @@ get_header();
         </div>
 
         <div class="max-w-[1140px] mx-auto grid md:grid-cols-2 gap-6">
-            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/ezgif.com-webp-to-jpg-8_bnv6fe.jpg" alt=""
+            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/Quality-interior-231_i32jd3.jpg" alt=""
                 class="w-full h-full">
             <div class="mx-auto space-y-4">
 

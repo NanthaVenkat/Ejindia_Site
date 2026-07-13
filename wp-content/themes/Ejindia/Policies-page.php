@@ -9,7 +9,7 @@ get_header();
 <style>
     .companies-tab-navigation .companies-tab-btn {
         color: #fff;
-        background-color: #262626;
+        background-color: #191919;
         /* border-radius: 15px; */
         padding: 8px 14px;
         margin: 0px !important;
@@ -17,7 +17,7 @@ get_header();
 
     @media screen and (min-width: 1020px) {
         .companies-tab-navigation .companies-tab-btn:not(:last-child) {
-            border-bottom: 1px solid #ffffff85;
+            border-bottom: 1px solid #636363;
         }
     }
 
@@ -298,14 +298,14 @@ $documents = array(
 ?>
 
 <section class="py-12 px-4 bg-black">
-    <div class="w-full xl:max-w-[1440px] mx-auto">
+    <div class="w-full xl:max-w-[1040px] mx-auto">
         <div class="max-w-xl mx-auto mb-10 text-center">
             <h3 class="!text-[#F78D1E] !text-3xl md:!text-4xl font-medium mb-4">OUR GROUP COMPANIES</h3>
         </div>
 
         <div class="grid lg:grid-cols-[40%_60%]">
             <div
-                class="companies-tab-navigation flex lg:flex-col overflow-auto rounded-lg lg:overflow-hidden w-full lg:max-w-[340px] lg:w-max h-max mx-auto mb-6 font-medium">
+                class="companies-tab-navigation flex lg:flex-col border border-[#636363] overflow-auto rounded-lg lg:overflow-hidden w-full lg:max-w-[340px] lg:w-max h-max mx-auto mb-6 font-light">
                 <?php
                 foreach ($documents as $index => $document):
                     $tab_id = strtolower(str_replace(' ', '_', $document['name']));

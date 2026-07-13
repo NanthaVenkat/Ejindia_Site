@@ -12,7 +12,7 @@ get_header();
             manufacturers masterpieces, not just jewels ”</p>
 
         <div class="max-w-[1140px] mx-auto grid md:grid-cols-2 gap-6">
-            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/ezgif.com-webp-to-jpg-8_bnv6fe.jpg" alt=""
+            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/craftsmanship-interior-crop-1_yvn3zl.jpg" alt=""
                 class="w-full h-full">
             <div class="mx-auto space-y-4">
 
@@ -29,7 +29,7 @@ get_header();
         </div>
 
         <div class="max-w-[1140px] mx-auto grid md:grid-cols-2 gap-6">
-            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/ezgif.com-webp-to-jpg-8_bnv6fe.jpg" alt=""
+            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/craftsmanship-interior-1-mm_nmhwum.jpg" alt=""
                 class="w-full h-full">
             <div class="mx-auto space-y-4">
 

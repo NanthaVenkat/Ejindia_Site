@@ -11,7 +11,7 @@ get_header();
         <p class="text-3xl text-center mb-16 text-[#777]">“ With an installed capacity of 40 tonnes in gold, 22000 carats in diamonds, 2200 kgs in platinum and 144 tonnes in silver per annum. Emerald’s potential to create smiles with its creations are unparalleled ”</p>
 
         <div class="max-w-[1140px] mx-auto grid md:grid-cols-2 gap-6">
-            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/ezgif.com-webp-to-jpg-8_bnv6fe.jpg" alt=""
+            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/infrastuture-interior-123_wuxyzy.jpg" alt=""
                 class="w-full h-full">
             <div class="mx-auto space-y-4">
 
@@ -22,7 +22,7 @@ get_header();
         </div>
 
         <div class="max-w-[1140px] mx-auto grid md:grid-cols-2 gap-6">
-            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/ezgif.com-webp-to-jpg-8_bnv6fe.jpg" alt=""
+            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/infrastuture-interior-231_ssovxq.jpg" alt=""
                 class="w-full h-full">
             <div class="mx-auto space-y-4">
 

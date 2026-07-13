@@ -21,7 +21,7 @@ get_header();
                         <p>Vendor Code of Conduct</p>
                     </a>
 
-                    <a href="http://localhost/Ejindia_Site/vendors/vendor-registrayion/</a>">
+                    <a href="http://localhost/Ejindia_Site/vendors/vendor-registrayion/">
                         <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/Crm-3.png" alt="" class="w-35">
                         <p>Vendor Registration</p>
                     </a>
