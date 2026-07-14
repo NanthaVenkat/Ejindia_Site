@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Gold
+Template Name: Diamond
 */
 get_header();
 ?>
@@ -14,60 +14,16 @@ get_header();
 <?php
 $goldJewels = array(
     array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-13.jpg',
-        'name' => 'Casting',
+        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/diamond-5.jpg',
+        'name' => 'MOUNTINGS',
     ),
     array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-8.jpg',
-        'name' => 'Indiania',
+        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/diamond-6.jpg',
+        'name' => 'OPEN SETTING',
     ),
     array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-4.jpg',
-        'name' => 'Electro Forming',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-10.jpg',
-        'name' => 'Electro Fusion',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-12.jpg',
-        'name' => 'Nagas',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-16.jpg',
-        'name' => 'Stamping & Imprez',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-6.jpg',
-        'name' => 'DVIJA',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-9.jpg',
-        'name' => 'Machine Chain',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-5.jpg',
-        'name' => 'Mangal Sutra',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-17.jpg',
-        'name' => 'Unikraft',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-15.jpg',
-        'name' => 'MMD',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-14.jpg',
-        'name' => 'ILA',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-11.jpg',
-        'name' => 'Handmade',
-    ),
-    array(
-        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-5.jpg',
-        'name' => 'Emerald NXT',
+        'image' => 'http://ea.brightbridge.co/wp-content/uploads/2026/07/diamond-3.jpg',
+        'name' => 'CLOSE SETTING',
     ),
 );
 ?>
@@ -82,7 +38,7 @@ $goldJewels = array(
 <section class="py-12 bg-[#fffdfc]">
     <div class="w-full xl:max-w-[1040px] mx-auto px-4 mb-5">
 
-        <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-7.jpg" alt="" class="mx-auto">
+        <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/diamond-4.jpg" alt="" class="mx-auto">
 
         <div class="space-y-5 px-6 py-12 sm:p-12 text-center mb-8">
             <h3 class="text-[#555] text-2xl sm:text-3xl">DESIGN YOUR DREAMS</h3>
@@ -93,6 +49,10 @@ $goldJewels = array(
             <a href="" class="rounded-full shadow-xl -shadow-y-[6px] px-8 py-3 text-xl transition hover:bg-gray-400 hover:text-white mt-4 inline-block border border-gray-400">Know How</a>
         </div>
 
+        <div class="space-y-4 mb-8 text-center">
+            <h3 class="text-[#555] text-xl sm:text-2xl">PRODUCTS</h3>
+            <p>We have 5 Lac+ Unique Designs.</p>
+        </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <?php foreach ($goldJewels as $index => $goldJewel): ?>
                 <div class="shadow-xl">
@@ -101,6 +61,8 @@ $goldJewels = array(
                 </div>
             <?php endforeach; ?>
         </div>
+
+        <p class="text-xl text-center text-[#777] mt-12">Interested in our Silver Jewellery? <a href="" class="text-[#434d5c] underline">Submit a quick enquiry</a> to know what’s special in it for you!</p>
     </div>
 </section>
 

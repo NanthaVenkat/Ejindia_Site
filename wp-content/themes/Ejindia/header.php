@@ -25,10 +25,10 @@
                     class="w-[180px]"></a>
 
             <ul class="flex gap-4 text-white items-center">
-                <li><a href="">Gold</a></li>
-                <li><a href="">Silver</a></li>
-                <li><a href="">Diamond</a></li>
-                <li><a href="">Platinum</a></li>
+                <li><a href="http://localhost/Ejindia_Site/gold/">Gold</a></li>
+                <li><a href="http://localhost/Ejindia_Site/silver/">Silver</a></li>
+                <li><a href="http://localhost/Ejindia_Site/diamond/">Diamond</a></li>
+                <li><a href="http://localhost/Ejindia_Site/platinum/">Platinum</a></li>
             </ul>
         </nav>
     </header>
