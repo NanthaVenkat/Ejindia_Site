@@ -30,7 +30,7 @@ $goldJewels = array(
 
 <div class="w-full overflow-hidden" style="max-height: 450px;">
     <video width="100%" autoplay muted loop playsinline style="display: block; object-fit: cover; object-position: center; height: 450px;">
-        <source src="http://ea.brightbridge.co/wp-content/uploads/2026/07/gold-new.mp4" type="video/mp4">
+        <source src="http://ea.brightbridge.co/wp-content/uploads/2026/07/diamond-bannervideo.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>

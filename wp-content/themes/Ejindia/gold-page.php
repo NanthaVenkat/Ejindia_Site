@@ -90,7 +90,9 @@ $goldJewels = array(
                 levels of customisation to manufacture your dream product, just the way
                 you like it. Dive into our world of co-creation.</p>
 
-            <a href="" class="rounded-full shadow-xl -shadow-y-[6px] px-8 py-3 text-xl transition hover:bg-gray-400 hover:text-white mt-4 inline-block border border-gray-400">Know How</a>
+            <!-- <a href="" class="rounded-full shadow-xl -shadow-y-[6px] px-8 py-3 text-xl transition hover:bg-gray-400 hover:text-white mt-4 inline-block border border-gray-400">Know How</a> -->
+
+            <button command="show-modal" commandfor="dialog" class="rounded-full shadow-xl -shadow-y-[6px] px-8 py-3 text-xl transition hover:bg-gray-400 hover:text-white mt-4 inline-block border border-gray-400">Know How</button>
         </div>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -103,5 +105,7 @@ $goldJewels = array(
         </div>
     </div>
 </section>
+
+<?php include 'template-parts/jewelery-modals.php'; ?>
 
 <?php get_footer(); ?>
