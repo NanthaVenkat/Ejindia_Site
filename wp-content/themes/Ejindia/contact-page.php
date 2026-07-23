@@ -6,6 +6,10 @@ get_header();
 ?>
 
 <style>
+
+    body {
+        background-color: #000
+    }
     .investors-table td {
         padding: 12px 16px;
         /* background-color: #544f4c; */
@@ -45,7 +49,7 @@ get_header();
         </div>
 
         <div>
-            <img src="http://localhost/Ejindia_Site/wp-content/uploads/2026/06/career-banner.png" alt="">
+            <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/career-banner.png" alt="">
         </div>
     </div>
 

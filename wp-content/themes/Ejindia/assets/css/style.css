@@ -130,10 +130,6 @@ optgroup {
     z-index: 0;
 }
 
-.heroSwiper .swiper-slide>.relative>.relative {
-    pointer-events: none;
-}
-
 footer .container {
     max-width: 1200px;
 }

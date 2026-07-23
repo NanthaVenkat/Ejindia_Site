@@ -39,12 +39,11 @@ function ejindia_theme_enqueue_scripts()
         'ejindia-main',
         get_template_directory_uri() . '/assets/js/main.js',
         ['jquery', 'swiper'],
-        filemtime(get_template_directory() . '/assets/js/main.js'),
+        filemtime(get_stylesheet_directory() . '/assets/js/main.js'),
         true
     );
 }
 add_action('wp_enqueue_scripts', 'ejindia_theme_enqueue_scripts');
-
 
 function register_careers_cpt()
 {

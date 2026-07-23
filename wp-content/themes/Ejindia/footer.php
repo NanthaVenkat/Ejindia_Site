@@ -82,19 +82,38 @@
 
     <div class="pt-20 pb-12 bg-[#1b1615]">
         <div class="w-full xl:max-w-[1440px] mx-auto px-4">
-            <div class="border-b border-[#5A5A5A] pb-5 mb-5">
-                <p class="mb-8 font-medium text-3xl">Get The latest News About Emerald</p>
+            <div class="grid grid-cols-3 mb-5 border-b border-[#5A5A5A] pb-5">
+                <div class="px-4">
+                    <p class="mb-8 font-medium text-3xl">Get The latest News About Emerald</p>
 
-                <div class="flex gap-3">
-                    <a href="https://www.facebook.com/EmeraldJewelleryLTD"><img
-                            src="http://ea.brightbridge.co/wp-content/uploads/2026/06/facebook.svg" alt="Facebook"
-                            class="w-[35px]"></a>
-                    <a href="https://www.youtube.com/channel/UCMydLOMF5lfxBcwfK29gBIg"><img
-                            src="http://ea.brightbridge.co/wp-content/uploads/2026/06/youtube.svg" alt="youtube"
-                            class="w-[35px]"></a>
-                    <a href="https://www.instagram.com/emeraldjewelleryin/"><img
-                            src="http://ea.brightbridge.co/wp-content/uploads/2026/06/insta.svg" alt="Instagram"
-                            class="w-[35px]"></a>
+                    <div class="flex gap-3">
+                        <a href="https://www.facebook.com/EmeraldJewelleryLTD"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/facebook.svg" alt="Facebook"
+                                class="w-[35px]"></a>
+                        <a href="https://www.youtube.com/channel/UCMydLOMF5lfxBcwfK29gBIg"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/youtube.svg" alt="youtube"
+                                class="w-[35px]"></a>
+                        <a href="https://www.instagram.com/emeraldjewelleryin/"><img
+                                src="http://ea.brightbridge.co/wp-content/uploads/2026/06/insta.svg" alt="Instagram"
+                                class="w-[35px]"></a>
+                    </div>
+                </div>
+                <div class="px-4">
+                    <h4 class="mb-4 text-xl">Company</h4>
+                    <ul class="space-y-4">
+                        <li><a href="http://ea.brightbridge.co/discover/" class="text-gray-300">About</a></li>
+                        <li><a href="http://ea.brightbridge.co/certifications" class="text-gray-300">Certifications</a></li>
+                        <li><a href="http://ea.brightbridge.co/investors" class="text-gray-300">Investers</a></li>
+                        <li><a href="http://ea.brightbridge.co/discover/journey/" class="text-gray-300">Our Story</a></li>
+                    </ul>
+                </div>
+                <div class="px-4">
+                    <h4 class="mb-4 text-xl">Information</h4>
+                    <ul class="space-y-4">
+                        <li><a href="http://ea.brightbridge.co/career/" class="text-gray-300">Careers</a></li>
+                        <li><a href="http://ea.brightbridge.co/corporate-gifting/" class="text-gray-300">Corporate Gifting</a></li>
+                        <li><a href="http://localhost/Ejindia_Site/contact-us/" class="text-gray-300">Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="flex justify-between items-start flex-wrap space-y-4">
