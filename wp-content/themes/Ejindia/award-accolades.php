@@ -145,8 +145,8 @@ get_header();
             </div>
 
             <!-- Item 10: Image Right, Content Left -->
-            <!-- <div class="grid md:grid-cols-2 relative">
-                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">1998</p>
+            <div class="grid md:grid-cols-2 relative">
+                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">2016</p>
                 <div class="p-8 bg-white flex h-max mx-6 my-auto">
                     <div class="text-gray-500 space-y-4">
                         <h5>BEST LARGE SCALE JEWELLERY MANUFACTURER OF THE YEAR</h5>
@@ -156,12 +156,12 @@ get_header();
                 </div>
                 <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/awards-5.jpg"
                     alt="ESTABLISHMENT OF EMERALD JEWELLERS HANDMADE JEWELLERY">
-            </div> -->
+            </div>
 
             <!-- Item 11: Image Left, Content Right -->
-            <!-- <div class="grid md:grid-cols-2 relative">
-                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">1984</p>
-                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/01_zj2lvv_zmucdv.jpg"
+            <div class="grid md:grid-cols-2 relative">
+                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">2016</p>
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/awards-7.jpg"
                     alt="ESTABLISHMENT OF EMERALD JEWELLERS HANDMADE JEWELLERY">
                 <div class="p-8 bg-white flex h-max justify-center mx-6 my-auto">
                     <div class="text-gray-500 space-y-4">
@@ -170,7 +170,7 @@ get_header();
                             Metal Jewellery Plain (Medium) category by Gem and Jewellery Export Promotion Council.</p>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
             <!-- Item 12: Image Right, Content Left -->
             <div class="grid md:grid-cols-2 relative">
@@ -215,29 +215,15 @@ get_header();
             </div>
 
             <!-- Item 15: Image Left, Content Right -->
-            <!-- <div class="grid md:grid-cols-2 relative">
-                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">1998</p>
-                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/05_mpkyh3.jpg"
+            <div class="grid md:grid-cols-2 relative">
+                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">2015</p>
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/awards-5.jpg"
                     alt="ESTABLISHMENT OF EMERALD JEWELLERS HANDMADE JEWELLERY">
                 <div class="p-8 bg-white flex h-max justify-center mx-6 my-auto">
                     <div class="text-gray-500 space-y-4">
                         <h5>BEST LARGE SCALE JEWELLERY MANUFACTURER OF THE YEAR</h5>
                         <p>Emerald received the title "Best Large Scale Jewellery Manufacturer Of The Year" by India
                             Bullion & Jewellers Association Ltd (IBJA)</p>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- Item 17: Image Left, Content Right -->
-            <div class="grid md:grid-cols-2 relative">
-                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">2015</p>
-                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/awards-24.jpg"
-                    alt="ESTABLISHMENT OF EMERALD JEWELLERS HANDMADE JEWELLERY">
-                <div class="p-8 bg-white flex h-max justify-center mx-6 my-auto">
-                    <div class="text-gray-500 space-y-4">
-                        <h5>GUINESS WORLD RECORD FOR WORLDS LARGEST CHAIN</h5>
-                        <p>Emerald took the pride of being an integral part of the longest hand made chain ever made,
-                            Emerald together with Dubai Gold and Jewellers Group achieved the world record.</p>
                     </div>
                 </div>
             </div>
@@ -256,9 +242,23 @@ get_header();
                     alt="ESTABLISHMENT OF EMERALD JEWELLERS HANDMADE JEWELLERY">
             </div>
 
+            <!-- Item 17: Image Left, Content Right -->
+            <div class="grid md:grid-cols-2 relative">
+                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">2015</p>
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/awards-24.jpg"
+                    alt="ESTABLISHMENT OF EMERALD JEWELLERS HANDMADE JEWELLERY">
+                <div class="p-8 bg-white flex h-max justify-center mx-6 my-auto">
+                    <div class="text-gray-500 space-y-4">
+                        <h5>GUINESS WORLD RECORD FOR WORLDS LARGEST CHAIN</h5>
+                        <p>Emerald took the pride of being an integral part of the longest hand made chain ever made,
+                            Emerald together with Dubai Gold and Jewellers Group achieved the world record.</p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Item 18: Image Right, Content Left -->
-            <!-- <div class="grid md:grid-cols-2 relative">
-                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">1990</p>
+            <div class="grid md:grid-cols-2 relative">
+                <p class="absolute top-0 left-[90%] text-[#98694c] border-b border-[#98694c] w-full">2015</p>
                 <div class="p-8 bg-white flex h-max mx-6 my-auto">
                     <div class="text-gray-500 space-y-4">
                         <h5>IJ JEWELLERS CHOICE DESIGN AWARDS</h5>
@@ -266,9 +266,9 @@ get_header();
                             and Temple Jewellery.</p>
                     </div>
                 </div>
-                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/06/03_maihwv.jpg"
+                <img src="http://ea.brightbridge.co/wp-content/uploads/2026/07/awards-9.jpg"
                     alt="ESTABLISHMENT OF EMERALD JEWELLERS HANDMADE JEWELLERY">
-            </div> -->
+            </div>
 
             <!-- Item 19: Image Left, Content Right -->
             <div class="grid md:grid-cols-2 relative">

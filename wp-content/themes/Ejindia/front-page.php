@@ -13,15 +13,10 @@ get_header(); ?>
         border-radius: 100%;
         filter: brightness(1);
         background-color: #FFFFFF54;
-        z-index: 30;
     }
 
     [class*=swiper-button]::after {
         font-size: 1.5rem;
-    }
-
-    .heroSwiper .swiper-pagination {
-        z-index: 30;
     }
 
     .heroSwiper .swiper-slide>.relative>.relative {
@@ -101,7 +96,7 @@ get_header(); ?>
                         <div class="absolute inset-0 bg-black/30 z-10 pointer-events-none"></div>
 
                         <!-- Content - Now clickable -->
-                        <div class="relative !z-20 h-full flex items-end lg:items-center">
+                        <div class="relative z-20 h-full flex items-end lg:items-center">
                             <div class="container mx-auto px-6 md:px-12 pb-12 lg:pb-0">
                                 <h1 class="text-white text-2xl sm:text-4xl md:text-6xl font-bold max-w-3xl leading-tight">
                                     Sparkling Silver Collections
